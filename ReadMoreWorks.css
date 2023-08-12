@@ -1,0 +1,61 @@
+/*------------------------------------------------Our Work detais Page------------------------------------------------*/
+.back_buttom{
+    display: flex;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 25px;
+    margin-left: 35px;
+    
+}
+
+.back_buttom i {
+    margin-right: 5px;
+    text-decoration: none;
+}
+
+.back_buttom:hover {
+    color: #2BBFB0;
+    text-decoration: none;
+}
+
+.main-content {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 40px;
+    font-family: 'work sans';
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.1);
+    margin-bottom: 80px;
+    margin-top: 40px;
+    border-radius: 20px;
+
+}
+
+.content-text h1 {
+    color: #1C6179;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.content-text h3 {
+    margin-top: 30px;
+    font-weight: bold;
+    color: #2BBFB0;
+    
+}
+
+.content-text p {
+    text-align: justify;
+    font-size: 20px;
+    line-height: 2;
+    color: #1C6179;
+    
+}
+
+.content-text h3:before{
+    content: "➜";
+    margin-right: 10px;
+    font-size: 20px;
+    color: #2BBFB0;   
+}
+

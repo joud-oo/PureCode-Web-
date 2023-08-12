@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <!--footer style-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
+  <!--footer style-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+  <!--font style (work sans)-->
+  <link href='https://fonts.googleapis.com/css?family=Work Sans' rel='stylesheet'>
+  <!--style sheet-->
+  <link rel='stylesheet' href='style.css'>
+  <!--ContactUsStyle sheet-->
+  <link rel='stylesheet' href='ContactUsStyle.css'>
+  <!--Logo appear beside web browser title-->
+  <link rel='icon' href='images/Logo.ico'>
+  <title>PureCode.sa | Home Page</title>
+</head>
+
+<body>
+  <!--Header-->
+  <header class="header">
+    <Img src="images/Logo with Font.png" alt="Logo"></Img>
+    <div class="header-right">
+      <a href="Home.html">Home</a>
+      <a href="Services.html">Services</a>
+      <a href="Order.html">Order</a>
+      <a href="OurWork.html">Our Work</a>
+      <a class="active" href="ContactUs.html">Contact Us</a>
+    </div>
+  </header>
+
+  <!--Main Page Content-->
+  <main class="contact-page">
+    <section class="contact-form-section">
+        <h2>Get in Touch</h2>
+        <p>We'd love to hear from you!</p>
+        <form class="contact-form" onsubmit="SubmitAlert()">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <section class="contact-details-section">
+        <h2>Contact Details</h2>
+        <div class="contact-card">
+            <div class="contact-icon">
+                <i class="ion-android-call"></i>
+            </div>
+            <div class="contact-info">
+                <h4>Phone</h4>
+                <p>+966 566900074</p>
+            </div>
+        </div>
+        <div class="contact-card">
+            <div class="contact-icon">
+                <i class="ion-ios-email"></i>
+            </div>
+            <div class="contact-info">
+                <h4>Email</h4>
+                <p>info@purecode.sa</p>
+            </div>
+        </div>
+        <div class="contact-card">
+            <div class="contact-icon">
+                <i class="ion-location"></i>
+            </div>
+            <div class="contact-info">
+                <h4>Location</h4>
+                <p>Jeddah Altahlia Blaza - Saudi Arabia</p>
+            </div>
+        </div>
+    </section>
+</main>
+
+<script>
+  function SubmitAlert() {
+    alert("You message have been send sucssesfully :)");
+  }
+</script>
+
+  <!--Footer-->
+  <div class="footer-clean">
+    <footer>
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-sm-4 col-md-3 item">
+            <h3>Services</h3>
+            <ul>
+              <li><a href="#">Web design</a></li>
+              <li><a href="#">App Development</a></li>
+              <li><a href="#">Web Development</a></li>
+            </ul>
+          </div>
+          <div class="col-sm-4 col-md-3 item">
+            <h3>About</h3>
+            <ul>
+              <li><a href="#">Company</a></li>
+              <li><a href="#">Team</a></li>
+              <li><a href="#">Our Work</a></li>
+            </ul>
+          </div>
+          <div class="col-sm-4 col-md-3 item">
+            <h3>Careers</h3>
+            <ul>
+              <li><a href="#">Job openings</a></li>
+              <li><a href="#">Employee success</a></li>
+              <li><a href="#">Benefits</a></li>
+            </ul>
+          </div>
+        </div>
+        <br>
+      </div>
+    </footer>
+    <div class="item social"><a href="#">
+        <i class="icon ion-social-whatsapp"></i></a>
+      <a href="#"><i class="icon ion-social-twitter"></i></a>
+      <a href="#"><i class="icon ion-social-github"></i></a>
+      <a href="#"><i class="icon ion-social-linkedin"></i></a>
+      <br>
+      <p class="copyright">&copy; 2023 PureCode. All rights reserved.</p>
+    </div>
+  </div>
+</body>
+
+</html>

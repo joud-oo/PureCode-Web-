@@ -1,0 +1,176 @@
+/*------------------------------------------------Home Page------------------------------------------------*/
+h1, h2{
+    font-weight: bold;
+    color: #1C6179;
+    margin-bottom: 20px;
+}
+/*Section 1 in Home*/
+.content-row1 {
+    display: flex;
+    align-items: center; /* Align items vertically in the middle */
+}
+
+.content-text1 {
+    flex: 1; /* Allow this element to grow and take available space */
+    padding: 20px;
+    margin-left: 120px;
+    font-weight: bold;
+    font-size: 28px;
+    color: #333E50;
+    text-align: justify;  
+}
+
+.content-image1 {
+    flex: 1; /* Allow this element to grow and take available space */
+    padding: 13px;
+    text-align: center; /* Center the image horizontally */
+}
+.content-image1 img {
+    margin-right: 80px;
+    height: 550px;
+    width: 550px;
+}
+
+.buttons1 {
+    display: flex;
+    gap: 18px;
+    margin: auto;
+    text-decoration: none;  
+}
+
+.button {
+    padding: 8px 20px;
+    background-color: #2BBFB0;
+    color: white;
+    border: none;
+    border-radius: 60px;
+    text-decoration: none;  
+    transition: background-color 0.3s ease, color 0.2s ease; /* Add transition for smooth hover effect */
+    margin-top: 20px;
+}
+
+.button:hover {
+    background-color: #1C6179;
+    color: white; 
+    text-decoration: none;  
+}
+
+/*Section 2 in Home*/
+/* Styling for the Service Section */
+.services-container {    
+    background-color: #f7f7f7;
+    text-align: center;
+    height: 660px;
+    padding: 100px;
+}
+
+.services {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    margin: auto;
+    gap: 35px;  
+}
+
+.service-card {
+    flex: 1;
+    height: 350px;
+    padding: 20px 20px;
+    text-align: center;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+}
+
+.service-card:hover {
+    transform: translateY(-10px);
+}
+
+.service img {
+    max-width: 60%;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.service h3 {
+    font-size: 20px;
+    color: #2BBFB0;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.service p {
+    font-size: 14px;
+    font-weight: bold;
+    color: #1C6179;
+    margin-bottom: 10px;
+}
+
+ 
+/*Section 3 in home*/
+/* Styling for the Icon Section */
+.icon-section1 {
+    background-color:white;
+    text-align: center;
+    height: 350px;  
+    padding-top: 120px;
+    margin-bottom: 130px;
+}
+
+.icon-row1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.icon1 img {
+    font-size: 48px;
+    color: #2BBFB0;
+    margin-bottom: 15px;
+    height: 80px;
+    width: 80px;
+}
+
+.icon1 p {
+    font-size: 19px;
+    color: #333E50;
+    margin: 0;
+    font-weight: bold;
+}
+
+.icon1:hover {
+    transform: translateY(-10px);
+}
+
+
+/*Section 4 in home*/
+/* Styling for the Our Companies Section */
+.our-companies {
+    text-align: center;
+    background-color: #f7f7f7;
+    height: 500px;
+    padding-top: 130px;
+}
+
+.company-photos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.company-photos img {
+    border-radius: 5px;
+    width: 250px;
+}
+
+.compnayHover:hover {
+    transform: translateY(-15px);
+}
